@@ -65,3 +65,36 @@ function solution(arr) {
 }
 ```
 
+
+
+- 짝수와 홀수
+
+```javascript
+다른 사람 풀이
+function evenOrOdd(num) {
+  return num % 2 ? "Odd" : "Even";
+}
+
+
+내 풀이 
+개선점 : 함수명 수정하기
+function solution(num) {
+    if (num % 2 === 0) {
+        return "Even";
+    } else {
+        return "Odd";
+    }
+}
+
+```
+
+
+
+```javascript
+자바스크립트 
+반올림 : Math.round(number);
+올림 : Math.ceil(number);
+버림 : Math.floor(number)
+
+```
+
