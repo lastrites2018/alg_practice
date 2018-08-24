@@ -7,7 +7,6 @@
 ```javascript
 다른 사람 풀이 (정규표현식 사용)
 
-
 function hide_numbers(s) {
   return s.replace(/\d(?=\d{4})/g, "*");
 }
@@ -37,15 +36,13 @@ $ : 끝표시(문자열 끝에 매칭되어야 함)
 옵션 /rules/ig 와 같이 써준다.
 
 g : 글로벌의 뜻. 전역 매칭을 한다. 처음부터가 아닌 전체에서 정규식이 맞는걸 찾는다. 
-i : case Insensitive, 대소문자 구별안함
-m : Multiline
+i : case Insensitive, 대소문자 구별 안 함.
+m : Multiline.
 ```
 
 https://regex101.com/r/hL4vY1/1 정규표현식 번역기
 
 https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/%EC%A0%95%EA%B7%9C%EC%8B%9D
-
-
 
 - 평균 구하기
 
@@ -65,8 +62,6 @@ function solution(arr) {
 }
 ```
 
-
-
 - 짝수와 홀수
 
 ```javascript
@@ -77,7 +72,6 @@ function evenOrOdd(num) {
 
 
 내 풀이 
-개선점 : 함수명 수정하기
 function solution(num) {
     if (num % 2 === 0) {
         return "Even";
@@ -88,13 +82,10 @@ function solution(num) {
 
 ```
 
-
-
 ```javascript
 자바스크립트 
 반올림 : Math.round(number);
 올림 : Math.ceil(number);
-버림 : Math.floor(number)
-
+버림 : Math.floor(number);
 ```
 
